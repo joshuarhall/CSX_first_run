@@ -111,7 +111,7 @@ function eitherFilter(array, callback1, callback2) {
 
 ////////////////////
 // eitherCallback //
-////////////////////
+////////////////////      // need to come back to this one
 
 function eitherCallback(callback1, callback2) {
     return (el) => {
