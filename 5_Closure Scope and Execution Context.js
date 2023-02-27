@@ -50,12 +50,12 @@ function outer() {
   // Uncomment each of these lines one by one.
   // Before your do, guess what will be logged from each function call.
   
-  willCounter();
-  willCounter();
-  willCounter();
-  
-  jasCounter();
-  willCounter();
+willCounter(); // prediction: 1
+willCounter(); // prediction: 2
+willCounter(); // prediction: 3
+
+jasCounter(); // prediction: 1
+willCounter(); // prediction: 4
 
 ////////////
 // addByX //
